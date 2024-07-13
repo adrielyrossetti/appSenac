@@ -4,15 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#E31FEA"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnpp"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="154dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/alef"
+        android:text="Projeto Profissional"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="349dp" />
+
     <TextView
+        android:id="@+id/txtMaterias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:fontFamily="@font/alef"
+        android:text="Áreas de conhecimento"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="82dp"
+        android:background="#D84EA6"
+        android:backgroundTint="#F58E62F6"
+        app:srcCompat="@drawable/senac_logo_new"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnCN"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/alef"
+        android:text="Cincias Naturais"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <Button
+        android:id="@+id/btnTecnico"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/alef"
+        android:text="Técnico"
+        android:textColorHighlight="#EA3A3A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <Button
+        android:id="@+id/btnPT"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/alef"
+        android:text="Linguagens "
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/btnPv"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/alef"
+        android:text="Projeto de Vida"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/btnMatematica"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/alef"
+        android:text="Matemática"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/btnCh"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/alef"
+        android:text="Ciências Humanas "
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="448dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
