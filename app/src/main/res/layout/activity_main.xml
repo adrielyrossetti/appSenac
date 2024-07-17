@@ -5,109 +5,138 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="#E31FEA"
+    android:foregroundTint="#00FFFFFF"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnpp"
         style="@android:style/Widget.DeviceDefault.Button"
-        android:layout_width="154dp"
-        android:layout_height="57dp"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
         android:fontFamily="@font/alef"
         android:text="Projeto Profissional"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.924" />
 
     <TextView
         android:id="@+id/txtMaterias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/alef"
+        android:fontFamily="@font/enriqueta"
         android:text="Áreas de conhecimento"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
+        app:layout_constraintVertical_bias="0.133" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="407dp"
-        android:layout_height="82dp"
+        android:layout_width="415dp"
+        android:layout_height="75dp"
         android:background="#D84EA6"
-        android:backgroundTint="#F58E62F6"
+        android:backgroundTint="#D7FF2DAA"
         app:srcCompat="@drawable/senac_logo_new"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-3dp" />
 
     <Button
         android:id="@+id/btnCN"
         style="@android:style/Widget.DeviceDefault.Button"
-        android:layout_width="145dp"
-        android:layout_height="56dp"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#FFEB3B"
         android:fontFamily="@font/alef"
         android:text="Cincias Naturais"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="0.339" />
 
     <Button
         android:id="@+id/btnTecnico"
         style="@android:style/Widget.DeviceDefault.Button"
-        android:layout_width="145dp"
-        android:layout_height="56dp"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#039BE5"
+        android:backgroundTintMode="add"
         android:fontFamily="@font/alef"
         android:text="Técnico"
         android:textColorHighlight="#EA3A3A"
+        android:textColorLink="#FF3CBE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="0.685" />
 
     <Button
-        android:id="@+id/btnPT"
+        android:id="@+id/btnLinguagens"
         style="@android:style/Widget.DeviceDefault.Button"
-        android:layout_width="145dp"
-        android:layout_height="56dp"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
         android:fontFamily="@font/alef"
         android:text="Linguagens "
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="250dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
 
     <Button
         android:id="@+id/btnPv"
         style="@android:style/Widget.DeviceDefault.Button"
-        android:layout_width="145dp"
-        android:layout_height="56dp"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
         android:fontFamily="@font/alef"
         android:text="Projeto de Vida"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="350dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
 
     <Button
         android:id="@+id/btnMatematica"
         style="@android:style/Widget.DeviceDefault.Button"
-        android:layout_width="145dp"
-        android:layout_height="56dp"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
         android:fontFamily="@font/alef"
         android:text="Matemática"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="250dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
 
     <Button
         android:id="@+id/btnCh"
         style="@android:style/Widget.DeviceDefault.Button"
-        android:layout_width="145dp"
-        android:layout_height="56dp"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#F67B2C"
         android:fontFamily="@font/alef"
+        android:foregroundTint="#00FFFFFF"
         android:text="Ciências Humanas "
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="448dp" />
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorLink="#00881515"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
